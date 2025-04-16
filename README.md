@@ -29,8 +29,8 @@ pip install -r requirements.txt
 ---
 
 ## ⚙️ Configuration
-Before running the script, create a .env file in the project root based on the provided example.env.
-Edit .env and fill in your Qualys API credentials and base URL:
+Before running the script, create a `.env` file in the project root based on the provided `example.env`.<br />
+Edit `.env` and fill in your `API_LOGIN`, `API_PASSWORD` and `API_PLATFORM_URL`:
 
 ```env
 API_LOGIN=your_qualys_username
@@ -40,7 +40,7 @@ API_HEADERS={"X-Requested-With": "Python Requests", "Content-Type": "text/xml"}
 API_REQUEST_DELAY=1
 ```
 
-You can find the appropriate API_PLATFORM_URL for your account here:<br />
+You can find the appropriate `API_PLATFORM_URL` for your account here:<br />
 🔗 [Qualys Platform Identification](https://www.qualys.com/platform-identification/)
 
 ---
