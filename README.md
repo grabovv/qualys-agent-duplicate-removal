@@ -60,7 +60,7 @@ python qualys_agent_duplicate_removal.py --dry-run
 ```
 python qualys_agent_duplicate_removal.py
 ```
-
+---
 ## 📂 Logs
 Each run creates a timestamped log file in the logs/ directory, e.g.:
 ```
@@ -68,11 +68,15 @@ logs/CA_REMOVE_2025-04-16_14-30-00.log
 ```
 Logs include details about duplicates found, errors, and removal actions (or dry-run results).
 
+---
 ## 🛡️ Disclaimer
 > [!CAUTION]
 > This tool performs irreversible actions when not run in --dry-run mode. Use with caution.<br />
 > It is strongly recommended to run in dry-run mode first and review the logs before proceeding with actual deletions.
 
+---
+
 ## 📄 License
 This project is licensed under the MIT License. See the `LICENSE` file for details.
+
 
